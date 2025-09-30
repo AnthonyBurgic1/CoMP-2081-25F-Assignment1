@@ -14,38 +14,77 @@
     <nav class="nav">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="grid-container">
+    <!-- Hero -->
     <section class="hero">
-      <h1>Welcome to DinoCo</h1>
+      <h1>Welcome to Dino</h1>
       <p>We bring prehistoric fun into modern life. From toys to branding, DinoCo makes dinosaurs cool again!</p>
-      <a href="#" class="btn">Explore More</a>
+      <a href="#products" class="btn">Explore Products</a>
     </section>
 
-    <section class="content">
+    <!-- About Us -->
+    <section class="content" id="about">
       <h2>About Us</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tincidunt nunc, vitae pulvinar arcu. Praesent eget suscipit justo.</p>
+      <div class="about-wrapper">
+        <img src="Dino Logo.png" alt="About Dino">
+        <p>Founded in 2025, DinoCo was inspired by the playful spirit of dinosaurs. 
+        We create products that make people smile — from toys to eco-friendly merch. 
+        Our goal is to combine fun design with modern quality, keeping the dinosaur spirit alive for kids and adults alike.</p>
+      </div>
     </section>
 
-    <section class="content">
+    <!-- Our Products -->
+    <section class="content" id="products">
       <h2>Our Products</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in dignissim augue. Integer ac massa lorem.</p>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/toy-dino.jpg" alt="Toy Dino">
+          <h3>Plush Dino</h3>
+          <p>Soft, huggable dinosaur plush for all ages.</p>
+          <a href="#" class="btn small">Buy Now</a>
+        </div>
+        <div class="product-card">
+          <img src="images/mug-dino.jpg" alt="Dino Mug">
+          <h3>Dino Mug</h3>
+          <p>Start your mornings with a roar! Dishwasher safe.</p>
+          <a href="#" class="btn small">Buy Now</a>
+        </div>
+        <div class="product-card">
+          <img src="images/sticker-dino.jpg" alt="Dino Stickers">
+          <h3>Sticker Pack</h3>
+          <p>Fun stickers to decorate your laptop, phone, or notebooks.</p>
+          <a href="#" class="btn small">Buy Now</a>
+        </div>
+      </div>
     </section>
 
-    <section class="content">
+    <!-- Contact -->
+    <section class="content" id="contact">
       <h2>Get in Touch</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Nulla facilisi. Cras eu sagittis nunc.</p>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© 2025 DinoCo | Logo design by <a href="#">[Designer’s Name on Logopond]</a></p>
+    <p>© 2025 Dino Logo | Logo design by <a href="#">[Designer’s Name on Logopond]</a></p>
   </footer>
 </body>
 </html>
