@@ -13,7 +13,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #5F9A76; /* Darker green */
+  /* Darker green */
+  background-color: #5F9A76; 
   color: #fff;
 }
 
@@ -36,7 +37,8 @@ body {
 }
 
 .nav a:hover {
-  color: #7ED49D; /* Dino body green */
+/* Dino body green */
+  color: #7ED49D; 
 }
 
 /* Hero Section */
@@ -44,7 +46,8 @@ body {
   grid-column: 1 / -1;
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #7ED49D; /* Dino body color */
+  /* Dino body color */
+  background-color: #7ED49D; 
   color: #000;
 }
 
